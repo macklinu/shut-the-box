@@ -1,10 +1,5 @@
-import { GlobalStyles } from 'twin.macro'
+import 'tailwindcss/tailwind.css'
 
 export default function App({ Component, pageProps }) {
-  return (
-    <>
-      <GlobalStyles />
-      <Component {...pageProps} />
-    </>
-  )
+  return <Component {...pageProps} />
 }
